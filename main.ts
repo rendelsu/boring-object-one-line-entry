@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync, chmodSync } from "node:fs";
 import { join } from "node:path";
 
-const LINE = "My beige sock lost its partner in the wash, so now even my loneliness refuses to wear color.";
+const LINE = "My cardboard box holds together until I lift it, then the bottom drops out like it was never committed.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 mkdirSync(outDir, { recursive: true });
